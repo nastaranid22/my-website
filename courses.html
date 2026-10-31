@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>دوره های آموزشی | آموزشگاه میثاق</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+
+        <img src="pc/logo.jpg" alt="لوگوی میثاق">
+
+        <div>
+            <h1>آموزشگاه میثاق</h1>
+            <p>کاشان</p>
+        </div>
+
+    </div>
+
+    <nav>
+        <a href="index.html">صفحه اصلی</a>
+        <a href="courses.html">دوره‌ها</a>
+        <a href="about.html">درباره ما</a>
+        <a href="gallery.html">گالری</a>
+        <a href="contact.html">تماس با ما</a>
+        <a href="register.html" class="register-btn">ثبت‌نام</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+<section class="section">
+
+    <h2 class="section-title">
+        دوره‌های آموزشی
+    </h2>
+
+    <p class="section-description">
+        دوره مورد علاقه خود را انتخاب کنید.
+    </p>
+
+
+    <!-- فیلتر دوره‌ها -->
+
+    <div class="course-filter">
+
+        <button onclick="filterCourses('all')">
+            همه دوره‌ها
+        </button>
+
+        <button onclick="filterCourses('computer')">
+            کامپیوتر
+        </button>
+
+        <button onclick="filterCourses('design')">
+            گرافیک
+        </button>
+
+        <button onclick="filterCourses('programming')">
+            برنامه‌نویسی
+        </button>
+
+    </div>
+
+
+    <div class="cards">
+
+
+        <div class="card course-card computer">
+
+            <div class="card-icon">💻</div>
+
+            <h3>ICDL</h3>
+
+            <p>
+                آموزش مهارت‌های هفتگانه کامپیوتر
+            </p>
+
+            <p>
+                مدت دوره: ۸۰ ساعت
+            </p>
+
+            <a href="register.html">
+                ثبت‌نام در دوره
+            </a>
+
+        </div>
+
+
+        <div class="card course-card programming">
+
+            <div class="card-icon">🐍</div>
+
+            <h3>پایتون</h3>
+
+            <p>
+                آموزش مقدماتی برنامه‌نویسی پایتون
+            </p>
+
+            <p>
+                مدت دوره: ۶۰ ساعت
+            </p>
+
+            <a href="register.html">
+                ثبت‌نام در دوره
+            </a>
+
+        </div>
+
+
+        <div class="card course-card design">
+
+            <div class="card-icon">🎨</div>
+
+            <h3>فتوشاپ</h3>
+
+            <p>
+                آموزش طراحی و ویرایش تصاویر
+            </p>
+
+            <p>
+                مدت دوره: ۴۵ ساعت
+            </p>
+
+            <a href="register.html">
+                ثبت‌نام در دوره
+            </a>
+
+        </div>
+
+
+        <div class="card course-card computer">
+
+            <div class="card-icon">🌐</div>
+
+            <h3>طراحی سایت</h3>
+
+            <p>
+                آموزش HTML، CSS و JavaScript
+            </p>
+
+            <p>
+                مدت دوره: ۴۰ ساعت
+            </p>
+
+            <a href="register.html">
+                ثبت‌نام در دوره
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <h3>آموزشگاه فنی و حرفه‌ای آزاد میثاق</h3>
+
+    <p>کاشان</p>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

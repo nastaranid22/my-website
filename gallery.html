@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>گالری | آموزشگاه میثاق</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+
+        <img src="pc/logo.jpg">
+
+        <div>
+
+            <h1>آموزشگاه میثاق</h1>
+
+            <p>کاشان</p>
+
+        </div>
+
+    </div>
+
+
+    <nav>
+
+        <a href="index.html">صفحه اصلی</a>
+
+        <a href="courses.html">دوره‌ها</a>
+
+        <a href="about.html">درباره ما</a>
+
+        <a href="gallery.html">گالری</a>
+
+        <a href="contact.html">تماس با ما</a>
+
+        <a href="register.html"
+           class="register-btn">
+            ثبت‌نام
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+<section class="section">
+
+    <h2 class="section-title">
+        گالری تصاویر
+    </h2>
+
+    <p class="section-description">
+        تصاویری از محیط و کلاس‌های آموزشی
+    </p>
+
+
+    <div class="gallery">
+
+
+        <img src="pc/ja.jpg"
+             onclick="showImage(this.src)"
+             alt="کلاس آموزشی">
+
+
+        <img src="pc/icdl.jpg"
+             onclick="showImage(this.src)"
+             alt="کلاس کامپیوتر">
+
+
+        <img src="pc/site.jpg"
+             onclick="showImage(this.src)"
+             alt="محیط آموزشگاه">
+
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- نمایش تصویر بزرگ -->
+
+<div id="imageModal"
+     class="modal"
+     onclick="closeImage()">
+
+    <span>×</span>
+
+    <img id="largeImage">
+
+</div>
+
+
+<footer>
+
+    <h3>
+        آموزشگاه فنی و حرفه‌ای آزاد میثاق
+    </h3>
+
+    <p>
+        کاشان
+    </p>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
